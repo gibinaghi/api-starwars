@@ -63,7 +63,6 @@ describe('AuthService', () => {
     jest.spyOn(jwtService, 'sign').mockReturnValue(mockToken);
 
     const result = await authService.singIn(loginCredentials);
-    console.log(result);
 
     expect(result.code).toBe(200);
     expect(result.message).toBe('Ok');

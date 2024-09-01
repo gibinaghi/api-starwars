@@ -13,8 +13,10 @@
 Api StarWars BE. Su objetivo es ser una API que ingeste información de las peliculas de StarWars a la base de datos. Además permite logearse y desloguerse del sistema, crear usuarios, y realizar operaciones sobre las peliculas.
 
 # Tecnologias
-Se utiliza Nestjs y Typescript
-La base de datos es PostgreSQL
+
+- **Framework:** NestJS
+- **Lenguaje:** TypeScript
+- **Base de Datos:** PostgreSQL
 
 # Instalacion
 
